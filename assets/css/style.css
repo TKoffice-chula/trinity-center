@@ -221,7 +221,13 @@ p { color: var(--muted); }
     linear-gradient(135deg, #2d1b69, #4a3492);
   min-height: 280px;
 }
-.pillar-2 { background: linear-gradient(135deg, #0f7c66, #3da89a); }
+.pillar-2 {
+  background:
+    linear-gradient(180deg, rgba(15, 124, 102, 0.3) 0%, rgba(15, 124, 102, 0.65) 55%, rgba(10, 80, 65, 0.85) 100%),
+    url('../img/teaching-team.jpg') center/cover no-repeat,
+    linear-gradient(135deg, #0f7c66, #3da89a);
+  min-height: 280px;
+}
 .pillar-3 { background: linear-gradient(135deg, #b3851a, #d4a017); }
 .pillar-num {
   position: absolute;
