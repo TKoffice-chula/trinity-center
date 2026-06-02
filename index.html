@@ -8,18 +8,18 @@
 <link rel="stylesheet" href="assets/css/style.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header class="site-header">
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>A Global Network for Kidney Care Excellence</span>
-      <nav class="topbar-links">
-        <a href="#contact">Contact</a>
-        <a href="news.html">Newsroom</a>
-      </nav>
+      <div class="topbar-left">
+        <a href="#">Log in</a>
+        <a href="#">Questions About Kidney Disease</a>
+        <a href="#">Journal Access</a>
+      </div>
     </div>
   </div>
   <div class="container header-inner">
@@ -36,9 +36,10 @@
     <nav class="main-nav">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
+      <a href="news.html">What's New</a>
       <a href="education.html">Education</a>
       <a href="research.html">Research</a>
-      <a href="news.html">News &amp; Events</a>
+      <a href="#membership">Membership</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -46,189 +47,148 @@
 
 <section class="hero">
   <div class="container hero-inner">
-    <div class="hero-text">
-      <span class="eyebrow">Center of Excellence</span>
-      <h1>Advancing Kidney Care Through Knowledge, Training, and Collaboration</h1>
-      <p>Trinity Center is committed to elevating the standard of nephrology care through cutting-edge research, world-class education, and global academic partnerships — building a sustainable future for patients with kidney disease.</p>
-      <div class="hero-cta">
-        <a href="about.html" class="btn btn-primary">Discover Our Mission</a>
-        <a href="education.html" class="btn btn-ghost">Explore Programs</a>
+    <h1>Trinity Center</h1>
+    <p class="hero-sub">Leading the advancement of kidney care through research, education, and global academic collaboration.</p>
+    <a href="about.html" class="btn btn-primary">Learn More</a>
+  </div>
+</section>
+
+<section class="tiles">
+  <div class="container">
+    <div class="tile-grid">
+      <a href="#membership" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><circle cx="17" cy="9" r="3"/><path d="M22 19c0-3-2-5-5-5"/></svg>
+        </div>
+        <h3>Membership</h3>
+        <p>Join our global community and gain access to exclusive resources, networking, and the latest research.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+      <a href="#" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 14c1.5 0 3-1.5 3-3.5S20.5 7 19 7c-.7 0-1.4.4-2 1"/><path d="M5 14c-1.5 0-3-1.5-3-3.5S3.5 7 5 7c.7 0 1.4.4 2 1"/><circle cx="12" cy="10" r="4"/><path d="M8 14c0 5 2 7 4 7s4-2 4-7"/></svg>
+        </div>
+        <h3>Nurses' Area</h3>
+        <p>Resources, training, and tools dedicated to nephrology nurses and allied health professionals.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+      <a href="news.html" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M8 3v4M16 3v4"/></svg>
+        </div>
+        <h3>Next Congress</h3>
+        <p>Stay updated on Trinity's flagship international congress and endorsed scientific meetings.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+      <a href="research.html" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        </div>
+        <h3>Guidelines</h3>
+        <p>Evidence-based clinical guidelines to support practice in kidney disease management.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+      <a href="education.html" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11v5c0 2 3 4 6 4s6-2 6-4v-5"/></svg>
+        </div>
+        <h3>Fellowship</h3>
+        <p>Discover our mentored fellowship opportunities for clinicians and early-career researchers.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+      <a href="education.html" class="tile">
+        <div class="tile-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 18l9 4 9-4"/><path d="M8 9h8M8 13h5"/></svg>
+        </div>
+        <h3>Education</h3>
+        <p>Online lecture series with videos on kidney care topics delivered by international experts.</p>
+        <span class="tile-link">Learn More</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="news-block">
+  <div class="container">
+    <h2 class="section-title">Latest News</h2>
+    <div class="news-row">
+      <article class="news-item">
+        <div class="news-thumb" style="background: linear-gradient(135deg,#1e5fa8,#3da8e6);"></div>
+        <div class="news-body">
+          <span class="news-date">May 28, 2026</span>
+          <h3><a href="news.html">Trinity Center Launches Pediatric Nephrology Curriculum</a></h3>
+          <p>A first-of-its-kind program designed to address pediatric kidney care gaps in emerging regions...</p>
+          <a href="news.html" class="read-more">Read More →</a>
+        </div>
+      </article>
+      <article class="news-item">
+        <div class="news-thumb" style="background: linear-gradient(135deg,#0f7c66,#3dc9a3);"></div>
+        <div class="news-body">
+          <span class="news-date">May 14, 2026</span>
+          <h3><a href="news.html">2026 World Congress of Nephrology Highlights</a></h3>
+          <p>Recap of breakthrough presentations from our flagship academic gathering in Singapore...</p>
+          <a href="news.html" class="read-more">Read More →</a>
+        </div>
+      </article>
+      <article class="news-item">
+        <div class="news-thumb" style="background: linear-gradient(135deg,#7a3e9e,#c479e8);"></div>
+        <div class="news-body">
+          <span class="news-date">April 30, 2026</span>
+          <h3><a href="news.html">Partnership with WHO on Kidney Health Equity</a></h3>
+          <p>Trinity Center joins a global coalition to expand dialysis access in low- and middle-income countries...</p>
+          <a href="news.html" class="read-more">Read More →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="join-band" id="membership">
+  <div class="container">
+    <h2>Become a Member Today</h2>
+    <p>Join our global community of nephrology professionals and gain access to exclusive resources, networking opportunities, and the latest research.</p>
+    <a href="#contact" class="btn btn-light-outline">Join Trinity Center Now</a>
+  </div>
+</section>
+
+<section class="why-block">
+  <div class="container">
+    <h2 class="section-title">Why Choose Trinity Center?</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a14 14 0 0 1 0 20M12 2a14 14 0 0 0 0 20"/></svg>
+        </div>
+        <h3>Global Network</h3>
+        <p>Connect with professionals worldwide and expand your reach in the nephrology community.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="6" r="3"/><path d="M9 9v6"/><path d="M6 15h6"/><path d="M9 15l3 6h6l-3-6"/><circle cx="18" cy="9" r="2"/></svg>
+        </div>
+        <h3>Research Excellence</h3>
+        <p>Access leading-edge scientific discoveries and breakthrough research in kidney care.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12z"/></svg>
+        </div>
+        <h3>Professional Support</h3>
+        <p>Comprehensive resources and guidance for your professional development.</p>
       </div>
     </div>
-    <div class="hero-visual" aria-hidden="true">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="orb orb-3"></div>
-      <svg viewBox="0 0 200 200" class="kidney-svg">
-        <defs>
-          <linearGradient id="kg" x1="0" x2="1" y1="0" y2="1">
-            <stop offset="0" stop-color="#1e5fa8"/>
-            <stop offset="1" stop-color="#3da8e6"/>
-          </linearGradient>
-        </defs>
-        <path fill="url(#kg)" d="M100 25c-30 0-55 22-55 55 0 35 30 55 55 95 25-40 55-60 55-95 0-33-25-55-55-55zm0 35a25 25 0 1 1 0 50 25 25 0 0 1 0-50z"/>
-      </svg>
-    </div>
   </div>
 </section>
 
-<section class="stats">
-  <div class="container stats-grid">
-    <div class="stat"><strong>850M+</strong><span>People worldwide affected by kidney disease</span></div>
-    <div class="stat"><strong>60+</strong><span>Partner academic institutions</span></div>
-    <div class="stat"><strong>2,400</strong><span>Healthcare professionals trained annually</span></div>
-    <div class="stat"><strong>120</strong><span>Active research projects</span></div>
-  </div>
-</section>
-
-<section class="pillars">
+<section class="partners-block">
   <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Our Pillars</span>
-      <h2>Three Foundations of Excellence</h2>
-      <p>We integrate research, education, and partnership to build a sustainable ecosystem of kidney care.</p>
-    </div>
-    <div class="pillar-grid">
-      <article class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l9 4-9 4-9-4 9-4z"/><path d="M3 10l9 4 9-4"/><path d="M3 14l9 4 9-4"/></svg>
-        </div>
-        <h3>Knowledge Development</h3>
-        <p>Driving translational research and clinical innovation to transform how kidney disease is understood, diagnosed, and treated.</p>
-        <a href="research.html" class="link-arrow">Explore Research →</a>
-      </article>
-      <article class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 7l10-5 10 5-10 5L2 7z"/><path d="M6 10v5c0 2 3 4 6 4s6-2 6-4v-5"/></svg>
-        </div>
-        <h3>Training &amp; Education</h3>
-        <p>Building capacity in nephrology through fellowships, certifications, and global continuing medical education programs.</p>
-        <a href="education.html" class="link-arrow">View Programs →</a>
-      </article>
-      <article class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M2 20c0-3 3-5 6-5s6 2 6 5"/><path d="M14 20c0-3 3-5 6-5"/></svg>
-        </div>
-        <h3>Academic Collaboration</h3>
-        <p>Convening clinicians, scientists, and institutions across borders to share knowledge and accelerate impact.</p>
-        <a href="about.html" class="link-arrow">Our Partners →</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="feature-strip">
-  <div class="container feature-inner">
-    <div class="feature-copy">
-      <span class="eyebrow light">Featured Initiative</span>
-      <h2>The Global Kidney Health Atlas</h2>
-      <p>A multi-year initiative mapping access, infrastructure, and outcomes across 130+ countries to advance equitable kidney care worldwide.</p>
-      <a href="research.html" class="btn btn-light">Learn More</a>
-    </div>
-    <div class="feature-image">
-      <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="250" fill="rgba(255,255,255,0.05)"/>
-        <g stroke="rgba(255,255,255,0.5)" fill="none" stroke-width="1">
-          <ellipse cx="200" cy="125" rx="180" ry="100"/>
-          <ellipse cx="200" cy="125" rx="140" ry="80"/>
-          <ellipse cx="200" cy="125" rx="90" ry="55"/>
-          <line x1="20" y1="125" x2="380" y2="125"/>
-          <line x1="200" y1="25" x2="200" y2="225"/>
-        </g>
-        <g fill="#ffd66b">
-          <circle cx="120" cy="90" r="4"/><circle cx="220" cy="110" r="5"/>
-          <circle cx="280" cy="140" r="4"/><circle cx="160" cy="170" r="4"/>
-          <circle cx="260" cy="80" r="3"/><circle cx="180" cy="130" r="4"/>
-        </g>
-      </svg>
-    </div>
-  </div>
-</section>
-
-<section class="programs">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Programs &amp; Initiatives</span>
-      <h2>Working Toward Sustainable Impact</h2>
-    </div>
-    <div class="program-grid">
-      <a href="education.html" class="program-card">
-        <div class="program-img" style="background: linear-gradient(135deg,#1e5fa8,#3da8e6)"></div>
-        <div class="program-body">
-          <span class="tag">Fellowship</span>
-          <h3>Trinity Fellowship in Clinical Nephrology</h3>
-          <p>A two-year mentored fellowship offering hands-on clinical and research training in advanced kidney care.</p>
-        </div>
-      </a>
-      <a href="research.html" class="program-card">
-        <div class="program-img" style="background: linear-gradient(135deg,#0f7c66,#3dc9a3)"></div>
-        <div class="program-body">
-          <span class="tag">Research</span>
-          <h3>Chronic Kidney Disease Registry</h3>
-          <p>A regional CKD registry enabling longitudinal outcome research and quality improvement.</p>
-        </div>
-      </a>
-      <a href="education.html" class="program-card">
-        <div class="program-img" style="background: linear-gradient(135deg,#7a3e9e,#c479e8)"></div>
-        <div class="program-body">
-          <span class="tag">Education</span>
-          <h3>Online Nephrology Academy</h3>
-          <p>Free, accredited CME modules for healthcare professionals practicing in resource-limited settings.</p>
-        </div>
-      </a>
-      <a href="about.html" class="program-card">
-        <div class="program-img" style="background: linear-gradient(135deg,#b34a2c,#ef7d4f)"></div>
-        <div class="program-body">
-          <span class="tag">Advocacy</span>
-          <h3>World Kidney Day Coalition</h3>
-          <p>Mobilizing awareness, screening, and prevention campaigns in collaboration with global partners.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="news-preview">
-  <div class="container">
-    <div class="section-head row-head">
-      <div>
-        <span class="eyebrow">Latest Updates</span>
-        <h2>News &amp; Insights</h2>
-      </div>
-      <a href="news.html" class="btn btn-outline">View All</a>
-    </div>
-    <div class="news-grid">
-      <article class="news-card">
-        <span class="date">May 28, 2026</span>
-        <h3>Trinity Center Launches New Pediatric Nephrology Curriculum</h3>
-        <p>A first-of-its-kind program designed to address pediatric kidney care gaps across emerging regions.</p>
-        <a href="news.html" class="link-arrow">Read more →</a>
-      </article>
-      <article class="news-card">
-        <span class="date">May 14, 2026</span>
-        <h3>2026 World Congress of Nephrology Highlights</h3>
-        <p>Recap of breakthrough presentations from our flagship academic gathering in Singapore.</p>
-        <a href="news.html" class="link-arrow">Read more →</a>
-      </article>
-      <article class="news-card">
-        <span class="date">April 30, 2026</span>
-        <h3>Partnership with the WHO on Kidney Health Equity</h3>
-        <p>Trinity Center joins a global coalition to expand dialysis access in low- and middle-income countries.</p>
-        <a href="news.html" class="link-arrow">Read more →</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="cta-band">
-  <div class="container cta-inner">
-    <div>
-      <h2>Help Us Build a Future Without Kidney Disease</h2>
-      <p>Join our global network of clinicians, researchers, and institutions advancing kidney care.</p>
-    </div>
-    <div class="cta-actions">
-      <a href="#contact" class="btn btn-primary">Get Involved</a>
-      <a href="about.html" class="btn btn-ghost-dark">Learn More</a>
+    <h2 class="section-title">Our Partners</h2>
+    <div class="partners-row">
+      <div class="partner-logo"><span>Academic Partner</span></div>
+      <div class="partner-logo"><span>Research Network</span></div>
+      <div class="partner-logo"><span>Hospital Group</span></div>
+      <div class="partner-logo"><span>Global Foundation</span></div>
+      <div class="partner-logo"><span>University Alliance</span></div>
     </div>
   </div>
 </section>
@@ -236,45 +196,43 @@
 <footer class="site-footer" id="contact">
   <div class="container footer-grid">
     <div>
-      <div class="brand brand-footer">
-        <span class="brand-mark">T</span>
-        <span class="brand-text">
-          <strong>Trinity Center</strong>
-          <small>Center of Excellence in Nephrology</small>
-        </span>
-      </div>
-      <p class="footer-tag">A center of excellence for knowledge, training, and collaboration — advancing sustainable kidney care.</p>
-    </div>
-    <div>
-      <h4>Explore</h4>
+      <h4>About Trinity</h4>
       <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="news.html">News &amp; Events</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Get Involved</h4>
-      <ul>
+        <li><a href="about.html">Mission Statement</a></li>
+        <li><a href="research.html">Guidelines</a></li>
+        <li><a href="about.html">Council &amp; Committees</a></li>
         <li><a href="#">Partnerships</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Volunteer</a></li>
-        <li><a href="#">Careers</a></li>
+        <li><a href="#membership">Join Trinity</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <h4>Resources &amp; Membership</h4>
+      <ul>
+        <li><a href="research.html">Guidelines</a></li>
+        <li><a href="news.html">What's New</a></li>
+        <li><a href="#">Renew Membership</a></li>
+        <li><a href="#membership">Join Trinity</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact &amp; Support</h4>
       <ul>
         <li>info@trinitycenter.org</li>
         <li>+1 (000) 000-0000</li>
         <li>Global Headquarters</li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom container">
     <span>© 2026 Trinity Center. All rights reserved.</span>
-    <span><a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Code of Conduct</a></span>
+    <div class="brand brand-footer">
+      <span class="brand-mark">T</span>
+      <span class="brand-text">
+        <strong>Trinity Center</strong>
+      </span>
+    </div>
   </div>
 </footer>
 
