@@ -217,7 +217,7 @@ p { color: var(--muted); }
 .pillar-1 {
   background:
     linear-gradient(180deg, rgba(45, 27, 105, 0.6) 0%, rgba(45, 27, 105, 0.92) 60%, rgba(26, 15, 62, 0.96) 100%),
-    url('../img/pd-team.jpg') center/cover no-repeat,
+    url('../img/pd-team.jpeg') center/cover no-repeat,
     linear-gradient(135deg, #2d1b69, #4a3492);
   min-height: 280px;
 }
