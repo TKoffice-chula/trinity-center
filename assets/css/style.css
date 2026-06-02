@@ -161,12 +161,21 @@ p { color: var(--muted); }
 }
 .center-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
 .center-logo {
-  height: 100px;
-  display: grid;
-  place-items: center;
-  margin-bottom: 20px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  overflow: hidden;
 }
-.center-logo img { max-height: 100%; max-width: 80%; object-fit: contain; }
+.center-logo img {
+  max-height: 100px;
+  max-width: 70%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
 .logo-fallback {
   display: grid; place-items: center;
   width: 80px; height: 80px;
