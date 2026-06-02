@@ -193,6 +193,17 @@ p { color: var(--muted); }
 
 /* Pillars band */
 .pillars-band { padding: 80px 0; background: var(--bg); }
+.pillars-infographic {
+  max-width: 640px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+.pillars-infographic svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 10px 30px rgba(45, 27, 105, 0.12));
+}
 .pillar-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .pillar-card {
   position: relative;
