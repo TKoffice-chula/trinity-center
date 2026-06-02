@@ -228,7 +228,13 @@ p { color: var(--muted); }
     linear-gradient(135deg, #0f7c66, #3da89a);
   min-height: 280px;
 }
-.pillar-3 { background: linear-gradient(135deg, #b3851a, #d4a017); }
+.pillar-3 {
+  background:
+    linear-gradient(180deg, rgba(179, 133, 26, 0.3) 0%, rgba(179, 133, 26, 0.65) 55%, rgba(120, 88, 15, 0.88) 100%),
+    url('../img/research-team.jpg') center/cover no-repeat,
+    linear-gradient(135deg, #b3851a, #d4a017);
+  min-height: 280px;
+}
 .pillar-num {
   position: absolute;
   top: 20px; right: 24px;
