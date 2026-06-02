@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Trinity Center — Center of Excellence in Nephrology</title>
-<meta name="description" content="Trinity Center: A Center of Excellence for knowledge development, training, and academic collaboration to sustainably elevate kidney patient care." />
+<title>Trinity Center-ISN — Interventional Nephrology Training Center</title>
+<meta name="description" content="Trinity Center-ISN: an Interventional Nephrology Training Center — a tri-hospital collaboration advancing kidney care through training, research, and global academic partnership." />
 <link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="assets/img/trinity-logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
@@ -17,17 +18,18 @@
     <div class="container topbar-inner">
       <div class="topbar-left">
         <a href="#">Log in</a>
-        <a href="#">Questions About Kidney Disease</a>
-        <a href="#">Journal Access</a>
+        <a href="#">Trinity Fellowship</a>
+        <a href="https://www.theisn.org/" target="_blank" rel="noopener">ISN ↗</a>
       </div>
     </div>
   </div>
   <div class="container header-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark">T</span>
+      <img src="assets/img/trinity-logo.png" alt="Trinity Center-ISN" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+      <span class="brand-mark" style="display:none;">T</span>
       <span class="brand-text">
-        <strong>Trinity Center</strong>
-        <small>Center of Excellence in Nephrology</small>
+        <strong>Trinity Center-ISN</strong>
+        <small>Interventional Nephrology Training Center</small>
       </span>
     </a>
     <button class="nav-toggle" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">
@@ -36,11 +38,11 @@
     <nav class="main-nav">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
-      <a href="news.html">What's New</a>
+      <a href="training.html">Training</a>
       <a href="education.html">Education</a>
       <a href="research.html">Research</a>
+      <a href="news.html">News</a>
       <a href="#videos">Videos</a>
-      <a href="#membership">Membership</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -48,63 +50,121 @@
 
 <section class="hero">
   <div class="container hero-inner">
-    <h1>Trinity Center</h1>
-    <p class="hero-sub">Leading the advancement of kidney care through research, education, and global academic collaboration.</p>
-    <a href="about.html" class="btn btn-primary">Learn More</a>
+    <span class="hero-eyebrow">An ISN-Endorsed Interventional Nephrology Training Center</span>
+    <h1>Trinity Center-ISN</h1>
+    <p class="hero-sub">A tri-hospital alliance advancing kidney care through procedural training, clinical research, and global academic collaboration — endorsed by the International Society of Nephrology.</p>
+    <div class="hero-cta">
+      <a href="training.html" class="btn btn-primary">Training Programs</a>
+      <a href="about.html" class="btn btn-light-outline">Our Story</a>
+    </div>
   </div>
 </section>
 
-<section class="tiles">
+<section class="centers-band">
   <div class="container">
-    <div class="tile-grid">
-      <a href="#membership" class="tile">
+    <h2 class="section-title">Our Three Centers</h2>
+    <p class="section-lead">Trinity Center-ISN unites three leading hospitals across Thailand — pooling clinical excellence, training capacity, and research strength under one network.</p>
+    <div class="center-grid">
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/chula-hospital.png" alt="King Chulalongkorn Memorial Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>KCMH</span>'"></div>
+        <h3>King Chulalongkorn Memorial Hospital</h3>
+        <p>Thai Red Cross Society · Bangkok</p>
+        <span class="tag">Lead Center · PD Excellence</span>
+      </div>
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/samutprakan-hospital.png" alt="Samutprakan Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>SH</span>'"></div>
+        <h3>Samutprakan Hospital</h3>
+        <p>Ministry of Public Health · Samutprakan</p>
+        <span class="tag">Regional Center</span>
+      </div>
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/chaiyaphum-hospital.png" alt="Chaiyaphum Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>CH</span>'"></div>
+        <h3>Chaiyaphum Hospital</h3>
+        <p>Ministry of Public Health · Chaiyaphum</p>
+        <span class="tag">Regional Center</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars-band">
+  <div class="container">
+    <h2 class="section-title">Excellence Through Three Pillars</h2>
+    <div class="pillar-grid">
+      <article class="pillar-card pillar-1">
+        <span class="pillar-num">01</span>
+        <h3>Service Excellence</h3>
+        <p class="pillar-tag">PD Excellence Center</p>
+        <p>Patient-centric peritoneal dialysis care delivered through multidisciplinary teams across our hospital network.</p>
+      </article>
+      <article class="pillar-card pillar-2">
+        <span class="pillar-num">02</span>
+        <h3>Teaching Excellence</h3>
+        <p class="pillar-tag">ISN Interventional Training Center</p>
+        <p>Specialized procedural training for nephrologists and healthcare professionals — endorsed by the International Society of Nephrology.</p>
+      </article>
+      <article class="pillar-card pillar-3">
+        <span class="pillar-num">03</span>
+        <h3>Research Excellence</h3>
+        <p class="pillar-tag">KMeD Clinical &amp; Translational Research</p>
+        <p>Bridging laboratory findings with patient care through clinical trials, translational science, and global research networks.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="tiles" id="training-preview">
+  <div class="container">
+    <h2 class="section-title">Core Training Procedures</h2>
+    <p class="section-lead">An intensive, hands-on curriculum covering the four foundational procedures of modern interventional nephrology.</p>
+    <div class="tile-grid tile-grid-4">
+      <a href="training.html#hd-catheter" class="tile">
         <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><circle cx="17" cy="9" r="3"/><path d="M22 19c0-3-2-5-5-5"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h6l2-4 2 8 2-4h4"/><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/></svg>
         </div>
-        <h3>Membership</h3>
-        <p>Join our global community and gain access to exclusive resources, networking, and the latest research.</p>
+        <h3>HD Catheter</h3>
+        <p>Tunnelled &amp; non-tunnelled hemodialysis catheter insertion technique.</p>
         <span class="tile-link">Learn More</span>
       </a>
-      <a href="#" class="tile">
+      <a href="training.html#pd-catheter" class="tile">
         <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 14c1.5 0 3-1.5 3-3.5S20.5 7 19 7c-.7 0-1.4.4-2 1"/><path d="M5 14c-1.5 0-3-1.5-3-3.5S3.5 7 5 7c.7 0 1.4.4 2 1"/><circle cx="12" cy="10" r="4"/><path d="M8 14c0 5 2 7 4 7s4-2 4-7"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v8M12 10c-3 0-5 2-5 5v5h10v-5c0-3-2-5-5-5z"/><circle cx="12" cy="2" r="1.5"/></svg>
         </div>
-        <h3>Nurses' Area</h3>
-        <p>Resources, training, and tools dedicated to nephrology nurses and allied health professionals.</p>
+        <h3>PD Catheter</h3>
+        <p>Tenckhoff catheter insertion, care, and complication management.</p>
         <span class="tile-link">Learn More</span>
       </a>
-      <a href="news.html" class="tile">
+      <a href="training.html#kidney-biopsy" class="tile">
         <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M8 3v4M16 3v4"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h2c4 0 6-3 6-7s-2-9-6-9H9z"/><path d="M11 11v4"/></svg>
         </div>
-        <h3>Next Congress</h3>
-        <p>Stay updated on Trinity's flagship international congress and endorsed scientific meetings.</p>
+        <h3>Kidney Biopsy</h3>
+        <p>Ultrasound-guided percutaneous renal biopsy under expert supervision.</p>
         <span class="tile-link">Learn More</span>
       </a>
-      <a href="research.html" class="tile">
+      <a href="training.html#pocus" class="tile">
         <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="14" height="18" rx="2"/><path d="M7 8h6M7 12h6M7 16h4"/><circle cx="20" cy="20" r="2"/></svg>
         </div>
-        <h3>Guidelines</h3>
-        <p>Evidence-based clinical guidelines to support practice in kidney disease management.</p>
+        <h3>POCUS</h3>
+        <p>Point-of-care ultrasound integrated into procedural decision-making.</p>
         <span class="tile-link">Learn More</span>
       </a>
-      <a href="education.html" class="tile">
-        <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11v5c0 2 3 4 6 4s6-2 6-4v-5"/></svg>
-        </div>
-        <h3>Fellowship</h3>
-        <p>Discover our mentored fellowship opportunities for clinicians and early-career researchers.</p>
-        <span class="tile-link">Learn More</span>
-      </a>
-      <a href="education.html" class="tile">
-        <div class="tile-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M3 18l9 4 9-4"/><path d="M8 9h8M8 13h5"/></svg>
-        </div>
-        <h3>Education</h3>
-        <p>Online lecture series with videos on kidney care topics delivered by international experts.</p>
-        <span class="tile-link">Learn More</span>
-      </a>
+    </div>
+    <div style="text-align:center; margin-top: 40px;">
+      <a href="training.html" class="btn btn-primary">Explore All Training Programs</a>
+    </div>
+  </div>
+</section>
+
+<section class="impact-band">
+  <div class="container">
+    <h2 class="section-title">Our Impact</h2>
+    <div class="impact-grid">
+      <div class="impact-item"><strong>94+</strong><span>High-impact publications</span></div>
+      <div class="impact-item"><strong>22</strong><span>Hospitals in our research network</span></div>
+      <div class="impact-item"><strong>8</strong><span>Countries in PDOPPS collaboration</span></div>
+      <div class="impact-item"><strong>2 weeks</strong><span>Intensive procedural fellowship</span></div>
     </div>
   </div>
 </section>
@@ -114,11 +174,11 @@
     <h2 class="section-title">Latest News</h2>
     <div class="news-row">
       <article class="news-item">
-        <div class="news-thumb" style="background: linear-gradient(135deg,#1e5fa8,#3da8e6);"></div>
+        <div class="news-thumb" style="background: linear-gradient(135deg,#0e4a7c,#2a8fc7);"></div>
         <div class="news-body">
           <span class="news-date">May 28, 2026</span>
-          <h3><a href="news.html">Trinity Center Launches Pediatric Nephrology Curriculum</a></h3>
-          <p>A first-of-its-kind program designed to address pediatric kidney care gaps in emerging regions...</p>
+          <h3><a href="news.html">Trinity Welcomes 2026 ISN Fellowship Cohort</a></h3>
+          <p>Five international fellows begin the two-week interventional nephrology fellowship at our Chulalongkorn campus...</p>
           <a href="news.html" class="read-more">Read More →</a>
         </div>
       </article>
@@ -126,8 +186,8 @@
         <div class="news-thumb" style="background: linear-gradient(135deg,#0f7c66,#3dc9a3);"></div>
         <div class="news-body">
           <span class="news-date">May 14, 2026</span>
-          <h3><a href="news.html">2026 World Congress of Nephrology Highlights</a></h3>
-          <p>Recap of breakthrough presentations from our flagship academic gathering in Singapore...</p>
+          <h3><a href="news.html">Thailand PDOPPS Phase 3 Data Released</a></h3>
+          <p>Latest insights from our 8-country PD outcomes study — building the Asia-Pacific evidence base...</p>
           <a href="news.html" class="read-more">Read More →</a>
         </div>
       </article>
@@ -135,8 +195,8 @@
         <div class="news-thumb" style="background: linear-gradient(135deg,#7a3e9e,#c479e8);"></div>
         <div class="news-body">
           <span class="news-date">April 30, 2026</span>
-          <h3><a href="news.html">Partnership with WHO on Kidney Health Equity</a></h3>
-          <p>Trinity Center joins a global coalition to expand dialysis access in low- and middle-income countries...</p>
+          <h3><a href="news.html">AJKD Top-Viewed Article: Thailand PDOPPS Findings</a></h3>
+          <p>Our work on constipation and outcomes in PD recognized as a top-viewed article of 2025...</p>
           <a href="news.html" class="read-more">Read More →</a>
         </div>
       </article>
@@ -176,50 +236,22 @@
 
 <section class="join-band" id="membership">
   <div class="container">
-    <h2>Become a Member Today</h2>
-    <p>Join our global community of nephrology professionals and gain access to exclusive resources, networking opportunities, and the latest research.</p>
-    <a href="#contact" class="btn btn-light-outline">Join Trinity Center Now</a>
-  </div>
-</section>
-
-<section class="why-block">
-  <div class="container">
-    <h2 class="section-title">Why Choose Trinity Center?</h2>
-    <div class="why-grid">
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a14 14 0 0 1 0 20M12 2a14 14 0 0 0 0 20"/></svg>
-        </div>
-        <h3>Global Network</h3>
-        <p>Connect with professionals worldwide and expand your reach in the nephrology community.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="6" r="3"/><path d="M9 9v6"/><path d="M6 15h6"/><path d="M9 15l3 6h6l-3-6"/><circle cx="18" cy="9" r="2"/></svg>
-        </div>
-        <h3>Research Excellence</h3>
-        <p>Access leading-edge scientific discoveries and breakthrough research in kidney care.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12z"/></svg>
-        </div>
-        <h3>Professional Support</h3>
-        <p>Comprehensive resources and guidance for your professional development.</p>
-      </div>
-    </div>
+    <h2>Apply for Trinity Fellowship</h2>
+    <p>Join our intensive two-week interventional nephrology training program — open to physicians, fellows, and clinicians worldwide.</p>
+    <a href="#contact" class="btn btn-light-outline">Inquire Now</a>
   </div>
 </section>
 
 <section class="partners-block">
   <div class="container">
-    <h2 class="section-title">Our Partners</h2>
+    <h2 class="section-title">Global Network &amp; Partners</h2>
     <div class="partners-row">
-      <div class="partner-logo"><span>Academic Partner</span></div>
-      <div class="partner-logo"><span>Research Network</span></div>
-      <div class="partner-logo"><span>Hospital Group</span></div>
-      <div class="partner-logo"><span>Global Foundation</span></div>
-      <div class="partner-logo"><span>University Alliance</span></div>
+      <div class="partner-logo"><span>International Society<br>of Nephrology</span></div>
+      <div class="partner-logo"><span>ISPD</span></div>
+      <div class="partner-logo"><span>APSN</span></div>
+      <div class="partner-logo"><span>Nephrology Society<br>of Thailand</span></div>
+      <div class="partner-logo"><span>Arbor Research<br>Collaborative</span></div>
+      <div class="partner-logo"><span>Chulalongkorn<br>University</span></div>
     </div>
   </div>
 </section>
@@ -229,41 +261,34 @@
     <div>
       <h4>About Trinity</h4>
       <ul>
-        <li><a href="about.html">Mission Statement</a></li>
-        <li><a href="research.html">Guidelines</a></li>
-        <li><a href="about.html">Council &amp; Committees</a></li>
-        <li><a href="#">Partnerships</a></li>
-        <li><a href="#membership">Join Trinity</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="about.html">Vision &amp; Mission</a></li>
+        <li><a href="about.html">Our Centers</a></li>
+        <li><a href="about.html">Leadership</a></li>
       </ul>
     </div>
     <div>
-      <h4>Resources &amp; Membership</h4>
+      <h4>Programs</h4>
       <ul>
-        <li><a href="research.html">Guidelines</a></li>
-        <li><a href="news.html">What's New</a></li>
-        <li><a href="#">Renew Membership</a></li>
-        <li><a href="#membership">Join Trinity</a></li>
+        <li><a href="training.html">Training Programs</a></li>
         <li><a href="education.html">Education</a></li>
+        <li><a href="research.html">Research &amp; Trials</a></li>
+        <li><a href="news.html">News &amp; Events</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact &amp; Support</h4>
+      <h4>Contact</h4>
       <ul>
-        <li>info@trinitycenter.org</li>
-        <li>+1 (000) 000-0000</li>
-        <li>Global Headquarters</li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li>PD Excellence Center</li>
+        <li>King Chulalongkorn Memorial Hospital</li>
+        <li>Bangkok, Thailand</li>
+        <li><a href="mailto:info@trinitycenter-isn.org">info@trinitycenter-isn.org</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom container">
-    <span>© 2026 Trinity Center. All rights reserved.</span>
-    <div class="brand brand-footer">
-      <span class="brand-mark">T</span>
-      <span class="brand-text">
-        <strong>Trinity Center</strong>
-      </span>
-    </div>
+    <span>© 2026 Trinity Center-ISN. All rights reserved.</span>
+    <span>Affiliated with the <a href="https://www.theisn.org/" target="_blank" rel="noopener" style="color:#fff;">International Society of Nephrology</a></span>
   </div>
 </footer>
 

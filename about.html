@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>About — Trinity Center</title>
+<title>About — Trinity Center-ISN</title>
 <link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="assets/img/trinity-logo.png" />
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,17 +15,18 @@
     <div class="container topbar-inner">
       <div class="topbar-left">
         <a href="#">Log in</a>
-        <a href="#">Questions About Kidney Disease</a>
-        <a href="#">Journal Access</a>
+        <a href="#">Trinity Fellowship</a>
+        <a href="https://www.theisn.org/" target="_blank" rel="noopener">ISN ↗</a>
       </div>
     </div>
   </div>
   <div class="container header-inner">
     <a href="index.html" class="brand">
-      <span class="brand-mark">T</span>
+      <img src="assets/img/trinity-logo.png" alt="Trinity Center-ISN" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+      <span class="brand-mark" style="display:none;">T</span>
       <span class="brand-text">
-        <strong>Trinity Center</strong>
-        <small>Center of Excellence in Nephrology</small>
+        <strong>Trinity Center-ISN</strong>
+        <small>Interventional Nephrology Training Center</small>
       </span>
     </a>
     <button class="nav-toggle" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">
@@ -33,10 +35,10 @@
     <nav class="main-nav">
       <a href="index.html">Home</a>
       <a href="about.html" class="active">About</a>
-      <a href="news.html">What's New</a>
+      <a href="training.html">Training</a>
       <a href="education.html">Education</a>
       <a href="research.html">Research</a>
-      <a href="index.html#membership">Membership</a>
+      <a href="news.html">News</a>
       <a href="index.html#contact">Contact</a>
     </nav>
   </div>
@@ -45,45 +47,105 @@
 <section class="page-hero">
   <div class="container">
     <div class="crumbs"><a href="index.html">Home</a> / About</div>
-    <h1>About Trinity Center</h1>
-    <p>A center of excellence dedicated to advancing kidney care through research, education, and global academic collaboration.</p>
+    <h1>About Trinity Center-ISN</h1>
+    <p>A tri-hospital alliance and ISN-endorsed Interventional Nephrology Training Center — uniting three leading Thai hospitals around procedural excellence, clinical research, and global academic collaboration.</p>
   </div>
 </section>
 
 <section class="page-section">
   <div class="container content-grid">
     <div>
-      <h2>Our Mission</h2>
-      <p>Trinity Center exists to transform the way kidney disease is understood, treated, and prevented. We combine clinical excellence with rigorous science and a global network of partners to develop scalable solutions to one of medicine's most pressing challenges.</p>
-      <p>Our work spans three pillars: developing the next generation of nephrology knowledge through research; building clinical and academic capacity through training and education; and convening international collaborations that translate evidence into impact.</p>
+      <span class="tag">Our Story</span>
+      <h2>Three Centers, One Mission</h2>
+      <p>The name <strong>"Trinity"</strong> reflects the foundation of our network — three Thai hospitals working as one to advance kidney care across the country and beyond. Together with the International Society of Nephrology (ISN), we form an endorsed Interventional Nephrology Training Center serving physicians from across the Asia-Pacific region and the world.</p>
+      <p>Anchored by the PD Excellence Center at King Chulalongkorn Memorial Hospital, and extended through partner sites at Samutprakan Hospital and Chaiyaphum Hospital, Trinity Center-ISN provides depth of clinical exposure, breadth of patient populations, and a research infrastructure that connects local practice with global evidence.</p>
     </div>
     <div class="content-card">
-      <h3>Our Vision</h3>
-      <p>A world where every person living with kidney disease has equitable access to high-quality, evidence-based care — regardless of geography or income.</p>
-      <h3 style="margin-top: 24px;">Our Values</h3>
-      <p>Excellence · Equity · Integrity · Collaboration · Innovation</p>
+      <h3>Vision</h3>
+      <p>To provide an intensive, two-week training program focused on procedural techniques and clinical exposure in interventional nephrology — achieving high levels of procedural competency for participants.</p>
+      <h3 style="margin-top: 22px;">Mission</h3>
+      <p>To lead the advancement of kidney care through visionary education, compassionate patient-centered service, and high-precision innovation driven by proactive international collaboration.</p>
+    </div>
+  </div>
+</section>
+
+<section class="centers-band">
+  <div class="container">
+    <h2 class="section-title">Our Three Centers</h2>
+    <p class="section-lead">Each hospital contributes its unique strengths to the Trinity network.</p>
+    <div class="center-grid">
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/chula-hospital.png" alt="King Chulalongkorn Memorial Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>KCMH</span>'"></div>
+        <h3>King Chulalongkorn Memorial Hospital</h3>
+        <p>Thai Red Cross Society · Bangkok</p>
+        <span class="tag">Lead Center</span>
+        <p style="margin-top:14px; font-size: 0.9rem;">Home of the PD Excellence Center, host of Thailand-PDOPPS, and lead investigator site for ISPD-endorsed multinational studies.</p>
+      </div>
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/samutprakan-hospital.png" alt="Samutprakan Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>SH</span>'"></div>
+        <h3>Samutprakan Hospital</h3>
+        <p>Ministry of Public Health · Samutprakan</p>
+        <span class="tag">Regional Center</span>
+        <p style="margin-top:14px; font-size: 0.9rem;">A high-volume provincial referral center providing trainees with exposure to a diverse, community-rooted patient population.</p>
+      </div>
+      <div class="center-card">
+        <div class="center-logo"><img src="assets/img/chaiyaphum-hospital.png" alt="Chaiyaphum Hospital" onerror="this.parentElement.innerHTML='<span class=&quot;logo-fallback&quot;>CH</span>'"></div>
+        <h3>Chaiyaphum Hospital</h3>
+        <p>Ministry of Public Health · Chaiyaphum</p>
+        <span class="tag">Regional Center</span>
+        <p style="margin-top:14px; font-size: 0.9rem;">A regional center extending Trinity's reach into northeast Thailand and rural kidney-care delivery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars-band">
+  <div class="container">
+    <h2 class="section-title">Excellence Through Three Pillars</h2>
+    <p class="section-lead">Service, teaching, and research — woven together into a single, integrated mission.</p>
+    <div class="pillar-grid">
+      <article class="pillar-card pillar-1">
+        <span class="pillar-num">01</span>
+        <h3>Service Excellence</h3>
+        <p class="pillar-tag">PD Excellence Center</p>
+        <p>Patient-centric peritoneal dialysis care delivered through a multidisciplinary team of nephrologists, surgeons, nurses, pharmacists, dietitians, and social workers.</p>
+      </article>
+      <article class="pillar-card pillar-2">
+        <span class="pillar-num">02</span>
+        <h3>Teaching Excellence</h3>
+        <p class="pillar-tag">ISN Interventional Training Center</p>
+        <p>An intensive two-week fellowship covering HD catheter, PD catheter, kidney biopsy, and POCUS — endorsed by the International Society of Nephrology.</p>
+      </article>
+      <article class="pillar-card pillar-3">
+        <span class="pillar-num">03</span>
+        <h3>Research Excellence</h3>
+        <p class="pillar-tag">KMeD Clinical &amp; Translational Research</p>
+        <p>Bridging laboratory findings with patient care through 7 active clinical trials, 94+ high-impact publications, and the 8-country PDOPPS network.</p>
+      </article>
     </div>
   </div>
 </section>
 
 <section class="page-section alt">
   <div class="container">
-    <h2 class="section-title">The Global Kidney Challenge</h2>
-    <div class="values-list">
-      <div class="value">
-        <span class="value-num">10%</span>
-        <strong>of adults</strong>
-        <p>live with chronic kidney disease worldwide.</p>
+    <h2 class="section-title">Program Aims</h2>
+    <p class="section-lead">What every fellow takes away from a Trinity Center-ISN training cohort.</p>
+    <div class="card-grid cols-2">
+      <div class="content-card">
+        <h3>Core Procedural Skills</h3>
+        <p>Observe or perform core nephrology procedures under professional supervision. Achieve high levels of procedural competency in HD catheter, PD catheter, kidney biopsy, and POCUS.</p>
       </div>
-      <div class="value">
-        <span class="value-num">2.6M</span>
-        <strong>deaths annually</strong>
-        <p>attributed to kidney failure and complications.</p>
+      <div class="content-card">
+        <h3>Clinical Reasoning</h3>
+        <p>Gain a thorough understanding of procedural indications, contraindications, and potential complications — applied through real-world cases at our partner hospitals.</p>
       </div>
-      <div class="value">
-        <span class="value-num">90%</span>
-        <strong>undiagnosed</strong>
-        <p>of those with early-stage CKD are unaware of their condition.</p>
+      <div class="content-card">
+        <h3>POCUS Integration</h3>
+        <p>Integrate point-of-care ultrasound directly into procedural decision-making — not as a separate skill, but as a core part of how interventional nephrology is practiced.</p>
+      </div>
+      <div class="content-card">
+        <h3>Peri-Procedural Risk</h3>
+        <p>Effectively manage peri-procedural risks such as infections, bleeding, and access-related complications — applying evidence-based practices throughout.</p>
       </div>
     </div>
   </div>
@@ -91,32 +153,68 @@
 
 <section class="page-section">
   <div class="container">
-    <h2 class="section-title">Our Journey</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <time>2018</time>
-        <h3>Founding of Trinity Center</h3>
-        <p>Established by a coalition of nephrologists, researchers, and academic institutions to address the global kidney care gap.</p>
+    <h2 class="section-title">Leadership &amp; Faculty</h2>
+    <p class="section-lead">A multidisciplinary team across nephrology, surgery, nursing, pharmacy, nutrition, and social work.</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <span class="team-role">Principal Investigator</span>
+        <strong>Prof. Talerngsak Kanjanabuch</strong>
+        <span>Nephrologist · Program Director</span>
       </div>
-      <div class="timeline-item">
-        <time>2020</time>
-        <h3>Launch of the Trinity Fellowship</h3>
-        <p>Our flagship clinical fellowship program welcomed its first cohort of nephrology trainees from 12 countries.</p>
+      <div class="team-card">
+        <span class="team-role">Physician</span>
+        <strong>Dr. Pongpratch Puapatakul</strong>
+        <span>Nephrology</span>
       </div>
-      <div class="timeline-item">
-        <time>2022</time>
-        <h3>Online Nephrology Academy</h3>
-        <p>Free, accredited CME courses made available to more than 8,000 clinicians worldwide.</p>
+      <div class="team-card">
+        <span class="team-role">Physician</span>
+        <strong>A/P. Somkanya Tungsanga</strong>
+        <span>Nephrology</span>
       </div>
-      <div class="timeline-item">
-        <time>2024</time>
-        <h3>Global Kidney Health Atlas</h3>
-        <p>Published a landmark report mapping kidney care infrastructure across 130+ countries.</p>
+      <div class="team-card">
+        <span class="team-role">Surgeon</span>
+        <strong>A/P Sopark Manasnayakorn</strong>
+        <span>Surgery</span>
       </div>
-      <div class="timeline-item">
-        <time>2026</time>
-        <h3>Pediatric Nephrology Initiative</h3>
-        <p>Launched a dedicated program to address the underserved pediatric kidney care population.</p>
+      <div class="team-card">
+        <span class="team-role">Surgeon</span>
+        <strong>Dr. Phuphat Vongwattanakit</strong>
+        <span>Surgery</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Surgeon</span>
+        <strong>A/P. Voranaddha Vacharathit</strong>
+        <span>Surgery</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Nursing</span>
+        <strong>RN. Piyaporn Towannang</strong>
+        <span>PD Nurse Lead</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Nursing</span>
+        <strong>RN. Chanatip Panlak</strong>
+        <span>PD Nurse</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Pharmacy</span>
+        <strong>Pharm. Kanittha Triam-amorawut</strong>
+        <span>Study Pharmacist</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Pharmacy</span>
+        <strong>Pharm. Bulakit Pradit</strong>
+        <span>Clinical Pharmacist</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Nutrition</span>
+        <strong>Suchawalee Tapnanont</strong>
+        <span>Dietitian</span>
+      </div>
+      <div class="team-card">
+        <span class="team-role">Social Work</span>
+        <strong>Kanokporn Pijmitr</strong>
+        <span>Patient Support</span>
       </div>
     </div>
   </div>
@@ -135,41 +233,34 @@
     <div>
       <h4>About Trinity</h4>
       <ul>
-        <li><a href="about.html">Mission Statement</a></li>
-        <li><a href="research.html">Guidelines</a></li>
-        <li><a href="about.html">Council &amp; Committees</a></li>
-        <li><a href="#">Partnerships</a></li>
-        <li><a href="index.html#membership">Join Trinity</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="about.html">Vision &amp; Mission</a></li>
+        <li><a href="about.html">Our Centers</a></li>
+        <li><a href="about.html">Leadership</a></li>
       </ul>
     </div>
     <div>
-      <h4>Resources &amp; Membership</h4>
+      <h4>Programs</h4>
       <ul>
-        <li><a href="research.html">Guidelines</a></li>
-        <li><a href="news.html">What's New</a></li>
-        <li><a href="#">Renew Membership</a></li>
-        <li><a href="index.html#membership">Join Trinity</a></li>
+        <li><a href="training.html">Training Programs</a></li>
         <li><a href="education.html">Education</a></li>
+        <li><a href="research.html">Research &amp; Trials</a></li>
+        <li><a href="news.html">News &amp; Events</a></li>
       </ul>
     </div>
     <div>
-      <h4>Contact &amp; Support</h4>
+      <h4>Contact</h4>
       <ul>
-        <li>info@trinitycenter.org</li>
-        <li>+1 (000) 000-0000</li>
-        <li>Global Headquarters</li>
-        <li><a href="index.html#contact">Contact Us</a></li>
+        <li>PD Excellence Center</li>
+        <li>King Chulalongkorn Memorial Hospital</li>
+        <li>Bangkok, Thailand</li>
+        <li><a href="mailto:info@trinitycenter-isn.org">info@trinitycenter-isn.org</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom container">
-    <span>© 2026 Trinity Center. All rights reserved.</span>
-    <div class="brand brand-footer">
-      <span class="brand-mark">T</span>
-      <span class="brand-text">
-        <strong>Trinity Center</strong>
-      </span>
-    </div>
+    <span>© 2026 Trinity Center-ISN. All rights reserved.</span>
+    <span>Affiliated with the <a href="https://www.theisn.org/" target="_blank" rel="noopener" style="color:#fff;">International Society of Nephrology</a></span>
   </div>
 </footer>
 
