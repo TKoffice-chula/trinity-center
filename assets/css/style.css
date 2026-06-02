@@ -161,18 +161,20 @@ p { color: var(--muted); }
 }
 .center-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
 .center-logo {
-  height: 110px;
-  display: flex;
+  height: 120px !important;
+  width: 100%;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
   overflow: hidden;
+  background: #fff;
 }
 .center-logo img {
-  max-height: 100px;
-  max-width: 70%;
-  width: auto;
-  height: auto;
+  max-height: 110px !important;
+  max-width: 200px !important;
+  width: auto !important;
+  height: auto !important;
   object-fit: contain;
   display: block;
 }
