@@ -216,24 +216,31 @@ p { color: var(--muted); }
 .pillar-card:hover { transform: translateY(-5px); }
 .pillar-1 {
   background:
-    linear-gradient(180deg, rgba(45, 27, 105, 0.3) 0%, rgba(45, 27, 105, 0.65) 55%, rgba(26, 15, 62, 0.85) 100%),
+    linear-gradient(180deg, rgba(45, 27, 105, 0.75) 0%, rgba(26, 15, 62, 0.92) 100%),
     url('../img/pd-team.jpg') center/cover no-repeat,
     linear-gradient(135deg, #2d1b69, #4a3492);
   min-height: 280px;
 }
 .pillar-2 {
   background:
-    linear-gradient(180deg, rgba(15, 124, 102, 0.3) 0%, rgba(15, 124, 102, 0.65) 55%, rgba(10, 80, 65, 0.85) 100%),
+    linear-gradient(180deg, rgba(15, 124, 102, 0.75) 0%, rgba(10, 80, 65, 0.92) 100%),
     url('../img/teaching-team.jpg') center/cover no-repeat,
     linear-gradient(135deg, #0f7c66, #3da89a);
   min-height: 280px;
 }
 .pillar-3 {
   background:
-    linear-gradient(180deg, rgba(179, 133, 26, 0.3) 0%, rgba(179, 133, 26, 0.65) 55%, rgba(120, 88, 15, 0.88) 100%),
+    linear-gradient(180deg, rgba(179, 133, 26, 0.78) 0%, rgba(120, 88, 15, 0.94) 100%),
     url('../img/research-team.jpg') center/cover no-repeat,
     linear-gradient(135deg, #b3851a, #d4a017);
   min-height: 280px;
+}
+.pillar-card h3,
+.pillar-card .pillar-tag,
+.pillar-card p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
 }
 .pillar-num {
   position: absolute;
