@@ -621,16 +621,27 @@ p { color: var(--muted); }
   position: absolute;
   top: 0;
   right: 0;
-  width: 55%;
+  width: 42%;
   height: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.75) 100%);
-  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.75) 100%);
-  opacity: 0.6;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.6) 100%);
+  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.6) 100%);
+  opacity: 0.32;
   z-index: 0;
   pointer-events: none;
 }
+.procedure-card.has-bg p,
+.procedure-card.has-bg ul,
+.procedure-card.has-bg li,
+.procedure-card.has-bg h4,
+.procedure-card.has-bg .proc-meta,
+.procedure-card.has-bg .proc-meta span {
+  color: var(--dark);
+}
+.procedure-card.has-bg p { font-weight: 500; }
+.procedure-card.has-bg ul li { font-weight: 500; font-size: 1.02rem; }
+.procedure-card.has-bg h4 { color: var(--primary); font-weight: 700; }
 #hd-catheter.has-bg::before    { background-image: url('../img/hd-procedure.jpg'); }
 #pd-catheter.has-bg::before    { background-image: url('../img/pd-procedure.jpg'); }
 #kidney-biopsy.has-bg::before  { background-image: url('../img/biopsy-procedure.jpg'); }
