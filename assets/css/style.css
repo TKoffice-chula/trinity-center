@@ -623,15 +623,18 @@ p { color: var(--muted); }
   right: 0;
   width: 55%;
   height: 100%;
-  background-image: var(--proc-img);
   background-size: cover;
   background-position: center;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.7) 100%);
-  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.7) 100%);
-  opacity: 0.55;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.75) 100%);
+  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.75) 100%);
+  opacity: 0.6;
   z-index: 0;
   pointer-events: none;
 }
+#hd-catheter.has-bg::before    { background-image: url('../img/hd-procedure.jpg'); }
+#pd-catheter.has-bg::before    { background-image: url('../img/pd-procedure.jpg'); }
+#kidney-biopsy.has-bg::before  { background-image: url('../img/biopsy-procedure.jpg'); }
+#pocus.has-bg::before          { background-image: url('../img/pocus-procedure.jpg'); }
 .procedure-card > * { position: relative; z-index: 1; }
 
 @media (max-width: 700px) {
