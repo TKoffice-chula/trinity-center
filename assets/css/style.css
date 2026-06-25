@@ -587,16 +587,6 @@ p { color: var(--muted); }
   pointer-events: none;
   z-index: 0;
 }
-/* B) Floor gradient — creates a sense of ground at the bottom of hero */
-.page-hero-split::before {
-  content: '';
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 90px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.28), transparent);
-  pointer-events: none;
-  z-index: 0;
-}
 .hero-split-inner {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -612,29 +602,13 @@ p { color: var(--muted); }
   align-items: flex-end;
   position: relative;
 }
-/* A) Elliptical ground shadow under feet */
-.hero-split-image::after {
-  content: '';
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 78%;
-  height: 28px;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.25) 45%, transparent 75%);
-  filter: blur(6px);
-  z-index: 0;
-  pointer-events: none;
-}
 .hero-split-image img {
   max-width: 100%;
-  max-height: 480px;
+  max-height: 420px;
   width: auto;
   height: auto;
   display: block;
-  position: relative;
-  z-index: 1;
-  filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 12px 26px rgba(0, 0, 0, 0.32));
 }
 
 @media (max-width: 900px) {
