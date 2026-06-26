@@ -1029,24 +1029,25 @@ p { color: var(--muted); }
 }
 .team-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .team-photo {
-  width: 110px;
-  height: 110px;
-  margin: 0 auto 16px;
-  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  margin: 0 auto 14px;
+  border-radius: 8px;
   overflow: hidden;
-  background: var(--accent-light);
+  background: linear-gradient(180deg, rgba(45, 27, 105, 0.06) 0%, rgba(61, 168, 154, 0.14) 100%);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  border: 3px solid var(--bg-soft);
-  box-shadow: 0 4px 12px rgba(45, 27, 105, 0.08);
+  position: relative;
 }
 .team-photo img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 20%;
+  width: auto;
+  object-fit: contain;
+  object-position: center bottom;
   display: block;
+  filter: drop-shadow(0 4px 8px rgba(45, 27, 105, 0.18));
 }
 .photo-fallback {
   font-family: 'Roboto Slab', serif;
