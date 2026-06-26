@@ -1020,14 +1020,15 @@ p { color: var(--muted); }
 /* Team grid */
 .team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 30px; }
 .team-card {
-  background: #fff;
-  padding: 24px 18px;
-  border-radius: var(--radius);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
   text-align: center;
-  border: 1px solid var(--border);
-  transition: transform .2s, box-shadow .2s;
+  border: none;
+  box-shadow: none;
+  transition: transform .25s;
 }
-.team-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.team-card:hover { transform: translateY(-4px); box-shadow: none; }
 .team-photo {
   width: 100%;
   aspect-ratio: 3 / 4;
