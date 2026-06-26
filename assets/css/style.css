@@ -1032,13 +1032,11 @@ p { color: var(--muted); }
   width: 100%;
   aspect-ratio: 3 / 4;
   margin: 0 auto 14px;
-  border-radius: 8px;
-  overflow: hidden;
-  background: linear-gradient(180deg, rgba(45, 27, 105, 0.06) 0%, rgba(61, 168, 154, 0.14) 100%);
   display: flex;
   align-items: flex-end;
   justify-content: center;
   position: relative;
+  overflow: visible;
 }
 .team-photo img {
   max-width: 100%;
@@ -1047,7 +1045,7 @@ p { color: var(--muted); }
   object-fit: contain;
   object-position: center bottom;
   display: block;
-  filter: drop-shadow(0 4px 8px rgba(45, 27, 105, 0.18));
+  filter: drop-shadow(0 6px 10px rgba(45, 27, 105, 0.18));
 }
 .photo-fallback {
   font-family: 'Roboto Slab', serif;
